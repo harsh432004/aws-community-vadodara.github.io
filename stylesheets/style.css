@@ -2874,7 +2874,17 @@ ul.circle li {
   background-image: url(../images/vols/Radhika-Rajput.jpg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Diya"] .img {
+  background-image: url(../images/vols/Diya.jpg);
+}
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Drashti"] .img {
+  background-image: url(../images/vols/Drashti-Joshi.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Vaishnavi"] .img {
+  background-image: url(../images/vols/Vaishnavi\ Dave.jpg);
+}
 
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
