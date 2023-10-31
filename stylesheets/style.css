@@ -2698,6 +2698,10 @@ ul.circle li {
   background-image: url(../images/vols/harshal.jpeg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Priyal"] .img {
+  background-image: url(../images/vols/priyal-jadav.jpg);
+}
+
 #page .section-6 .volunteers .vl-i .person[data-fname="Keshav Kant"] .img {
   background-image: url(../images/vols/keshav.jpeg);
 }
@@ -2883,7 +2887,7 @@ ul.circle li {
 }
 
 #page .section-6 .volunteers .vl-i .person[data-fname="Vaishnavi"] .img {
-  background-image: url(../images/vols/Vaishnavi\ Dave.jpg);
+  background-image: url(../images/vols/Vaishnavi-Dave.jpg);
 }
 
 /* line 1056, ../sass/shared/_home.scss */
