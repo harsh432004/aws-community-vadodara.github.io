@@ -317,7 +317,8 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
+                <button type="button" class="btn buy-ticket-link-super-early" data-bs-toggle="modal">Buy Now</button>
+              
               </div>
 
             </div>
@@ -344,7 +345,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
+                <button type="button" class="btn buy-ticket-link-early" data-bs-toggle="modal">Buy Now</button>
               </div>
             </div>
           </div>
@@ -371,7 +372,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
+                <button type="button" class="btn buy-ticket-link-regular" data-bs-toggle="modal">Buy Now</button>
               </div>
             </div>
           </div>
@@ -408,7 +409,7 @@
               </ul>
               <hr>
               <div class="sold text-center">
-                <button id="2500" type="button" class="btn buy-ticket-link" data-bs-toggle="modal">Buy Now</button>
+                <button id="2500" type="button" class="btn buy-ticket-link-golden" data-bs-toggle="modal">Buy Now</button>
               </div>
 
               <!--
@@ -1557,7 +1558,12 @@
                 </div>
               </div>
 
-              
+              <div class="person" data-fname="Shivansh" data-lname="Darji">
+                <div class="img">
+                  <a target="_blank" href="https://www.linkedin.com/in/shivansh-darji-168587286">
+                    <i class="icon large ion-logo-linkedin"></i>Shivansh Darji</a>
+                </div>
+              </div>
 
               <div class="person" data-fname="Vrutta" data-lname="Soni">
                 <div class="img">
@@ -1656,11 +1662,39 @@
   </div>
 
   <script>
+    $(".buy-ticket-link-super-early").on("click", () => {
+      checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21213" + formResolve, "_blank");
+      }).catch((fromReject) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21213", "_blank");
+      });
+    });
+    $(".buy-ticket-link-early").on("click", () => {
+      checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21214" + formResolve, "_blank");
+      }).catch((fromReject) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21214", "_blank");
+      });
+    });
+    $(".buy-ticket-link-regular").on("click", () => {
+      checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21215" + formResolve, "_blank");
+      }).catch((fromReject) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21215", "_blank");
+      });
+    });
+    $(".buy-ticket-link-golden").on("click", () => {
+      checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21216" + formResolve, "_blank");
+      }).catch((fromReject) => {
+        window.open("https://konfhub.com/checkout/acdbdq24?ticketId=21216", "_blank");
+      });
+    });
     $(".buy-ticket-link").on("click", () => {
       checkForUtmAvilableOrNot(decodeURIComponent(location.href)).then((formResolve) => {
-        window.open("https://konfhub.com/checkout/acdbdq24?" + formResolve, "_blank");
+        window.open("https://konfhub.com/checkout/acdbdq24" + formResolve, "_blank");
       }).catch((fromReject) => {
-        window.open("https://konfhub.com/checkout/acdbdq24?", "_blank");
+        window.open("https://konfhub.com/checkout/acdbdq24", "_blank");
       });
     });
 
