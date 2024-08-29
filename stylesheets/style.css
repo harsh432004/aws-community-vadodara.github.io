@@ -2339,7 +2339,7 @@ ul.circle li {
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).avdevs {
-  background-image: url(../images/coming-soon-stay-tuned.png);
+  background-image: url(../images/spons/AV-Devs-logo.png);
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).aecor {
@@ -2351,7 +2351,7 @@ ul.circle li {
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).cloudkida {
-  background-image: url(../images/coming-soon-stay-tuned.png);
+  background-image: url(../images/spons/cloudkida.png);
 }
 
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).nivida {
@@ -2944,6 +2944,9 @@ ul.circle li {
   background-image: url(../images/vols/Vaishnavi-Dave.jpg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Vikramadityasinh"] .img {
+  background-image: url(../images/vols/Vikramadityasinh.jpg);
+}
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
   margin: -50px auto 100px;
