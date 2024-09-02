@@ -3205,31 +3205,32 @@ ul.circle li {
 
   /* line 1216, ../sass/shared/_home.scss */
   #page .section-tickets .row>div {
-    width: calc(50% - 15px / 2);
+     /* width: calc(50% - 15px / 2); */
+    width: 100%;
     margin-bottom: 15px;
     padding: 0;
   }
 
   /* line 1220, ../sass/shared/_home.scss */
   #page .section-tickets .row>div:nth-child(1) {
-    order: 1;
+   
     margin-right: 15px;
   }
 
   /* line 1224, ../sass/shared/_home.scss */
   #page .section-tickets .row>div:nth-child(2) {
-    order: 3;
+    
     margin-right: 15px;
   }
 
   /* line 1228, ../sass/shared/_home.scss */
   #page .section-tickets .row>div:nth-child(3) {
-    order: 4;
+    
   }
 
   /* line 1231, ../sass/shared/_home.scss */
   #page .section-tickets .row>div:nth-child(4) {
-    order: 2;
+    
   }
 }
 
@@ -3250,6 +3251,7 @@ ul.circle li {
 #page .section-tickets .card.with_icon.border {
   border: solid 1px #dddddd;
   box-shadow: none;
+   overflow:auto;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3497,8 +3499,8 @@ i.icon.large {
 
 /* line 1430, ../sass/shared/_home.scss */
 .card p {
-  font-size: 14px;
-  color: #999999;
+  font-size: 16px;
+  color: black;
   line-height: 1.2;
 }
 
